@@ -4,7 +4,7 @@ The Debug Package lets you easily add values meant for debugging purposes and sh
 
 ## Getting Started
 
-`DebugController` is used to add and store values meant for debugging purposes and `DebugScreen` (SwiftUI) or `DebugCorrdinator` (if you are using UIKit based apps with the Coordinator pattern) is used to display them.
+`DebugController` is used to add and store values meant for debugging purposes and `DebugScreen` (SwiftUI) or if you are using UIKit based apps, just wrap it in a `UIHostingController`, is used for displaying them.
 
 ## Creating Items
 ### Values
